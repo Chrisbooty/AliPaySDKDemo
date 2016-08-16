@@ -26,6 +26,17 @@
 		AF296FE81D5F55B600D329BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF296FE61D5F55B600D329BE /* Main.storyboard */; };
 		AF296FEA1D5F55B600D329BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF296FE91D5F55B600D329BE /* Assets.xcassets */; };
 		AF296FED1D5F55B600D329BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF296FEB1D5F55B600D329BE /* LaunchScreen.storyboard */; };
+		AF6257221D62E536008235C1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257211D62E536008235C1 /* libc++.tbd */; };
+		AF6257241D62E549008235C1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257231D62E549008235C1 /* libz.tbd */; };
+		AF6257261D62E55E008235C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257251D62E55E008235C1 /* SystemConfiguration.framework */; };
+		AF6257281D62E56C008235C1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257271D62E56C008235C1 /* CoreTelephony.framework */; };
+		AF62572A1D62E57E008235C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257291D62E57E008235C1 /* QuartzCore.framework */; };
+		AF62572C1D62E587008235C1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF62572B1D62E587008235C1 /* CoreText.framework */; };
+		AF62572E1D62E596008235C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF62572D1D62E596008235C1 /* CoreGraphics.framework */; };
+		AF6257301D62E5A1008235C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF62572F1D62E5A1008235C1 /* UIKit.framework */; };
+		AF6257321D62E5AE008235C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257311D62E5AE008235C1 /* Foundation.framework */; };
+		AF6257341D62E5C0008235C1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257331D62E5C0008235C1 /* CFNetwork.framework */; };
+		AF6257361D62E5C9008235C1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6257351D62E5C9008235C1 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +150,17 @@
 		AF296FE91D5F55B600D329BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF296FEC1D5F55B600D329BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF296FEE1D5F55B600D329BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6257211D62E536008235C1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AF6257231D62E549008235C1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AF6257251D62E55E008235C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AF6257271D62E56C008235C1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AF6257291D62E57E008235C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF62572B1D62E587008235C1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AF62572D1D62E596008235C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF62572F1D62E5A1008235C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF6257311D62E5AE008235C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF6257331D62E5C0008235C1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AF6257351D62E5C9008235C1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +168,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6257361D62E5C9008235C1 /* CoreMotion.framework in Frameworks */,
+				AF6257341D62E5C0008235C1 /* CFNetwork.framework in Frameworks */,
+				AF6257321D62E5AE008235C1 /* Foundation.framework in Frameworks */,
+				AF6257301D62E5A1008235C1 /* UIKit.framework in Frameworks */,
+				AF62572E1D62E596008235C1 /* CoreGraphics.framework in Frameworks */,
+				AF62572C1D62E587008235C1 /* CoreText.framework in Frameworks */,
+				AF62572A1D62E57E008235C1 /* QuartzCore.framework in Frameworks */,
+				AF6257281D62E56C008235C1 /* CoreTelephony.framework in Frameworks */,
+				AF6257261D62E55E008235C1 /* SystemConfiguration.framework in Frameworks */,
+				AF6257241D62E549008235C1 /* libz.tbd in Frameworks */,
+				AF6257221D62E536008235C1 /* libc++.tbd in Frameworks */,
 				AF278CB71D6215B100A3EA04 /* libcrypto.a in Frameworks */,
 				AF278CB61D6215B100A3EA04 /* AlipaySDK.framework in Frameworks */,
 				AF278CB81D6215B100A3EA04 /* libssl.a in Frameworks */,
@@ -278,13 +311,6 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		AF278CC31D62182100A3EA04 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Framework;
-			sourceTree = "<group>";
-		};
 		AF296FD11D5F55B500D329BE = {
 			isa = PBXGroup;
 			children = (
@@ -304,7 +330,7 @@
 		AF296FDC1D5F55B600D329BE /* ChrisAliPayDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AF278CC31D62182100A3EA04 /* Framework */,
+				AF6257371D62E5D3008235C1 /* AliPayFramework */,
 				AF278C4E1D6215B000A3EA04 /* AliPaySDK */,
 				AF296FE01D5F55B600D329BE /* AppDelegate.h */,
 				AF296FE11D5F55B600D329BE /* AppDelegate.m */,
@@ -325,6 +351,24 @@
 				AF296FDE1D5F55B600D329BE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF6257371D62E5D3008235C1 /* AliPayFramework */ = {
+			isa = PBXGroup;
+			children = (
+				AF6257351D62E5C9008235C1 /* CoreMotion.framework */,
+				AF6257331D62E5C0008235C1 /* CFNetwork.framework */,
+				AF6257311D62E5AE008235C1 /* Foundation.framework */,
+				AF62572F1D62E5A1008235C1 /* UIKit.framework */,
+				AF62572D1D62E596008235C1 /* CoreGraphics.framework */,
+				AF62572B1D62E587008235C1 /* CoreText.framework */,
+				AF6257291D62E57E008235C1 /* QuartzCore.framework */,
+				AF6257271D62E56C008235C1 /* CoreTelephony.framework */,
+				AF6257251D62E55E008235C1 /* SystemConfiguration.framework */,
+				AF6257231D62E549008235C1 /* libz.tbd */,
+				AF6257211D62E536008235C1 /* libc++.tbd */,
+			);
+			name = AliPayFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
